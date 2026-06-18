@@ -1,0 +1,91 @@
+policy_id,snapshot_date,lapse_probability_1m,lapse_rank,segment_name,segment_confidence,segment_reason,top_lapse_drivers
+P10111,2024-03-01,0.0,78,early_tenure_payment_friction,0.667,tenure < 18 months; payment friction (monthly / no autopay / missed payments) (2/3 signals matched),Risk at or below base rate; no elevated factors
+P10200,2023-09-01,0.006125,66,early_tenure_payment_friction,0.667,tenure < 18 months; payment friction (monthly / no autopay / missed payments) (2/3 signals matched),tenure_months=14.03; premium_paid_last_3m=118.42; current_age=60.20
+P10018,2024-06-01,0.009211,53,post_retirement_high_coverage,0.333,age 65+ (1/3 signals matched),current_age=74.80; agent_touch_count_12m=0; premium_paid_last_3m=203.53
+P10090,2023-10-01,0.006372,60,unsegmented,0.0,No segment gate matched,annualized_premium=4209.27; cash_value=2270.03; missed_payment_count_6m=1
+P10147,2023-10-01,0.025404,27,early_tenure_payment_friction,0.667,tenure < 18 months; direct channel or low agent touch (2/3 signals matched),income_estimate=132559.52; tenure_months=0.00; agent_touch_count_12m=0
+P10153,2024-02-01,0.0062,63,post_retirement_high_coverage,0.333,age 65+ (1/3 signals matched),current_age=78.50; premium_paid_last_3m=173.52; face_amount=150000
+P10071,2023-09-01,0.009358,52,legacy_stable_value,1.0,tenure >= 84 months; no missed payments; autopay enabled; agent touch in last 12m (4/4 signals matched),cash_value=4568.32; annualized_premium=5254.71; address_change_12m=0
+P10090,2023-01-01,0.022092,29,unsegmented,0.0,No segment gate matched,annualized_premium=4209.27; tenure_months=50.00; cash_value=1080.39
+P10006,2024-06-01,0.003224,69,high_income_urban_builder,0.5,age 35-55; urbanicity = urban (2/4 signals matched),Risk at or below base rate; no elevated factors
+P10201,2024-11-01,0.0,79,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10164,2024-06-01,0.00638,57,early_tenure_payment_friction,0.667,tenure < 18 months; payment friction (monthly / no autopay / missed payments) (2/3 signals matched),tenure_months=9.00; premium_paid_last_3m=167.41; face_amount=100000
+P10022,2023-04-01,0.009102,54,unsegmented,0.0,No segment gate matched,tenure_months=30.95; premium_paid_last_3m=252.50; autopay_flag=0
+P10166,2024-11-01,0.041674,17,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),cash_value=4812.85; annualized_premium=4141.13; current_age=78.20
+P10076,2023-02-01,0.00638,58,high_income_urban_builder,0.75,age 35-55; face amount >= 500k; urbanicity = urban (3/4 signals matched),tenure_months=0.00; agent_touch_count_12m=1; annualized_premium=2147.30
+P10076,2023-07-01,0.019018,34,early_tenure_payment_friction,0.667,tenure < 18 months; direct channel or low agent touch (2/3 signals matched),tenure_months=4.93; agent_touch_count_12m=1; annualized_premium=2147.30
+P10163,2023-01-01,0.053566,12,early_tenure_payment_friction,0.667,tenure < 18 months; direct channel or low agent touch (2/3 signals matched),tenure_months=1.02; agent_touch_count_12m=0; income_estimate=85578.21
+P10102,2023-11-01,0.015259,43,early_tenure_payment_friction,0.667,tenure < 18 months; payment friction (monthly / no autopay / missed payments) (2/3 signals matched),tenure_months=16.03; current_age=60.30; income_estimate=79520.99
+P10198,2024-06-01,0.081152,6,post_retirement_high_coverage,0.667,age 65+; non-term product (2/3 signals matched),income_estimate=117887.98; current_age=71.30; tenure_months=27.96
+P10113,2023-03-01,0.012498,46,unsegmented,0.0,No segment gate matched,premium_paid_last_3m=143.89; tenure_months=44.98; income_estimate=79234.44
+P10132,2023-03-01,0.009532,51,unsegmented,0.0,No segment gate matched,income_estimate=104882.32; tenure_months=39.95; agent_touch_count_12m=1
+P10015,2023-11-01,0.0,80,high_income_urban_builder,0.25,age 35-55 (1/4 signals matched),Risk at or below base rate; no elevated factors
+P10058,2023-05-01,0.012454,48,unsegmented,0.0,No segment gate matched,agent_touch_count_12m=0; premium_paid_last_3m=158.22; face_amount=150000
+P10122,2024-12-01,0.021876,30,high_income_urban_builder,0.75,age 35-55; face amount >= 500k; urbanicity = urban (3/4 signals matched),annualized_premium=3983.07; agent_touch_count_12m=1; autopay_flag=0
+P10155,2023-04-01,0.008875,55,unsegmented,0.0,No segment gate matched,tenure_months=45.01; agent_touch_count_12m=1; premium_paid_last_3m=417.12
+P10008,2023-03-01,0.009688,49,high_income_urban_builder,0.5,age 35-55; urbanicity = urban (2/4 signals matched),premium_paid_last_3m=131.60; tenure_months=34.96; face_amount=100000
+P10122,2024-11-01,0.034664,25,high_income_urban_builder,0.75,age 35-55; face amount >= 500k; urbanicity = urban (3/4 signals matched),annualized_premium=3983.07; agent_touch_count_12m=0; autopay_flag=0
+P10197,2024-07-01,0.006322,61,high_income_urban_builder,0.5,age 35-55; urbanicity = urban (2/4 signals matched),tenure_months=19.98; premium_paid_last_3m=136.29; face_amount=100000
+P10074,2023-12-01,0.019563,32,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),current_age=67.20; missed_payment_count_6m=2; premium_paid_last_3m=417.48
+P10203,2023-02-01,0.0,81,legacy_stable_value,1.0,tenure >= 84 months; no missed payments; autopay enabled; agent touch in last 12m (4/4 signals matched),Risk at or below base rate; no elevated factors
+P10098,2023-08-01,0.009599,50,high_income_urban_builder,0.5,age 35-55; face amount >= 500k (2/4 signals matched),tenure_months=22.97; address_change_12m=0; loan_balance=0.00
+P10116,2024-04-01,0.041214,18,high_income_urban_builder,0.5,age 35-55; urbanicity = urban (2/4 signals matched),premium_paid_last_3m=124.04; tenure_months=37.03; face_amount=100000
+P10103,2023-12-01,0.003199,73,post_retirement_high_coverage,0.667,age 65+; non-term product (2/3 signals matched),Risk at or below base rate; no elevated factors
+P10127,2024-02-01,0.022182,28,early_tenure_payment_friction,0.667,tenure < 18 months; payment friction (monthly / no autopay / missed payments) (2/3 signals matched),annualized_premium=3983.43; tenure_months=7.06; autopay_flag=0
+P10096,2024-07-01,0.003184,74,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),Risk at or below base rate; no elevated factors
+P10069,2023-09-01,0.005941,67,legacy_stable_value,0.75,tenure >= 84 months; no missed payments; autopay enabled (3/4 signals matched),agent_touch_count_12m=0; premium_paid_last_3m=127.85; face_amount=100000
+P10197,2024-04-01,0.006322,62,early_tenure_payment_friction,0.667,tenure < 18 months; payment friction (monthly / no autopay / missed payments) (2/3 signals matched),tenure_months=16.99; premium_paid_last_3m=136.29; face_amount=100000
+P10110,2024-04-01,0.018728,35,high_income_urban_builder,0.75,age 35-55; face amount >= 500k; urbanicity = urban (3/4 signals matched),annualized_premium=3554.52; agent_touch_count_12m=1; cash_value=1301.81
+P10167,2024-05-01,0.035093,23,high_income_urban_builder,0.5,age 35-55; face amount >= 500k (2/4 signals matched),annualized_premium=4085.09; cash_value=3205.41; tenure_months=57.00
+P10020,2024-09-01,0.066695,10,post_retirement_high_coverage,0.667,age 65+; non-term product (2/3 signals matched),current_age=79.80; missed_payment_count_6m=4; annualized_premium=2336.49
+P10120,2023-01-01,0.04984,14,high_income_urban_builder,0.25,age 35-55 (1/4 signals matched),premium_paid_last_3m=276.63; face_amount=150000; tenure_months=54.05
+P10077,2024-09-01,0.072963,8,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),current_age=79.70; cash_value=2930.91; annualized_premium=2187.00
+P10047,2024-01-01,0.038081,21,unsegmented,0.0,No segment gate matched,income_estimate=196426.17; tenure_months=25.99; premium_paid_last_3m=295.58
+P10136,2024-12-01,0.027966,26,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),cash_value=4349.02; current_age=80.10; autopay_flag=0
+P10086,2023-11-01,0.003218,71,legacy_stable_value,1.0,tenure >= 84 months; no missed payments; autopay enabled; agent touch in last 12m (4/4 signals matched),Risk at or below base rate; no elevated factors
+P10164,2023-11-01,0.037341,22,early_tenure_payment_friction,0.667,tenure < 18 months; payment friction (monthly / no autopay / missed payments) (2/3 signals matched),tenure_months=2.00; premium_paid_last_3m=167.41; face_amount=100000
+P10200,2024-10-01,0.002956,77,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10091,2023-03-01,0.0,82,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10206,2023-02-01,0.006198,64,post_retirement_high_coverage,0.667,age 65+; face >= 500k or cash value >= 50k (2/3 signals matched),annualized_premium=4901.09; tenure_months=14.03; current_age=68.20
+P10198,2024-12-01,0.267056,3,post_retirement_high_coverage,0.667,age 65+; non-term product (2/3 signals matched),current_age=71.80; tenure_months=33.97; agent_touch_count_12m=1
+P10213,2023-11-01,0.0,83,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10144,2024-05-01,0.017822,36,legacy_stable_value,0.75,tenure >= 84 months; autopay enabled; agent touch in last 12m (3/4 signals matched),current_age=71.00; premium_paid_last_3m=152.02; missed_payment_count_6m=2
+P10123,2023-05-01,0.0,84,high_income_urban_builder,0.25,age 35-55 (1/4 signals matched),Risk at or below base rate; no elevated factors
+P10056,2024-12-01,0.050294,13,legacy_stable_value,0.75,tenure >= 84 months; autopay enabled; agent touch in last 12m (3/4 signals matched),premium_paid_last_3m=159.62; agent_touch_count_12m=1; face_amount=100000
+P10047,2023-02-01,0.012778,44,early_tenure_payment_friction,1.0,tenure < 18 months; payment friction (monthly / no autopay / missed payments); direct channel or low agent touch (3/3 signals matched),income_estimate=196426.17; tenure_months=15.01; agent_touch_count_12m=1
+P10181,2023-07-01,0.003241,68,legacy_stable_value,0.5,tenure >= 84 months; agent touch in last 12m (2/4 signals matched),Risk at or below base rate; no elevated factors
+P10134,2023-03-01,0.0,85,legacy_stable_value,1.0,tenure >= 84 months; no missed payments; autopay enabled; agent touch in last 12m (4/4 signals matched),Risk at or below base rate; no elevated factors
+P10032,2024-06-01,0.07997,7,high_income_urban_builder,0.25,age 35-55 (1/4 signals matched),income_estimate=119223.60; premium_paid_last_3m=117.88; agent_touch_count_12m=1
+P10003,2023-07-01,0.044031,16,early_tenure_payment_friction,1.0,tenure < 18 months; payment friction (monthly / no autopay / missed payments); direct channel or low agent touch (3/3 signals matched),tenure_months=4.93; premium_paid_last_3m=128.98; agent_touch_count_12m=1
+P10031,2024-06-01,0.003077,76,post_retirement_high_coverage,0.667,age 65+; face >= 500k or cash value >= 50k (2/3 signals matched),Risk at or below base rate; no elevated factors
+P10121,2023-06-01,0.03812,20,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),current_age=74.10; tenure_months=49.02; cash_value=1150.58
+P10196,2023-12-01,0.05528,11,post_retirement_high_coverage,0.667,age 65+; face >= 500k or cash value >= 50k (2/3 signals matched),current_age=68.10; income_estimate=93520.43; annualized_premium=2632.20
+P10013,2024-05-01,0.01559,42,high_income_urban_builder,0.25,age 35-55 (1/4 signals matched),tenure_months=26.94; agent_touch_count_12m=0; premium_paid_last_3m=289.01
+P10128,2023-12-01,0.034899,24,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),cash_value=4899.65; current_age=83.70; annualized_premium=3572.06
+P10058,2023-08-01,0.021632,31,unsegmented,0.0,No segment gate matched,agent_touch_count_12m=0; premium_paid_last_3m=158.22; face_amount=150000
+P10008,2023-04-01,0.006463,56,high_income_urban_builder,0.5,age 35-55; urbanicity = urban (2/4 signals matched),premium_paid_last_3m=131.60; tenure_months=35.98; face_amount=100000
+P10008,2024-10-01,0.003224,70,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10063,2023-02-01,0.0,86,post_retirement_high_coverage,0.333,age 65+ (1/3 signals matched),Risk at or below base rate; no elevated factors
+P10025,2024-04-01,0.0,87,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10096,2024-02-01,0.006379,59,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),current_age=67.60; agent_touch_count_12m=0; missed_payment_count_6m=1
+P10053,2024-04-01,0.07235,9,high_income_urban_builder,0.5,age 35-55; face amount >= 500k (2/4 signals matched),annualized_premium=2842.85; cash_value=1568.06; autopay_flag=0
+P10218,2024-07-01,0.0,88,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10060,2023-10-01,0.044057,15,unsegmented,0.0,No segment gate matched,income_estimate=124088.78; tenure_months=18.00; agent_touch_count_12m=0
+P10208,2024-07-01,0.961898,1,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),cash_value=5388.35; annualized_premium=5081.98; current_age=84.20
+P10016,2024-07-01,0.040435,19,high_income_urban_builder,0.75,age 35-55; face amount >= 500k; urbanicity = urban (3/4 signals matched),annualized_premium=5899.10; autopay_flag=0; address_change_12m=0
+P10032,2024-09-01,0.092199,5,high_income_urban_builder,0.25,age 35-55 (1/4 signals matched),income_estimate=119223.60; premium_paid_last_3m=176.82; agent_touch_count_12m=1
+P10218,2023-05-01,0.00321,72,unsegmented,0.0,No segment gate matched,Risk at or below base rate; no elevated factors
+P10054,2023-01-01,0.012633,45,post_retirement_high_coverage,0.333,age 65+ (1/3 signals matched),current_age=70.10; tenure_months=25.00; agent_touch_count_12m=0
+P10218,2023-09-01,0.00618,65,unsegmented,0.0,No segment gate matched,tenure_months=33.97; premium_paid_last_3m=402.01; address_change_12m=0
+P10096,2024-10-01,0.0,89,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),Risk at or below base rate; no elevated factors
+P10049,2024-03-01,0.015911,38,high_income_urban_builder,0.5,age 35-55; urbanicity = urban (2/4 signals matched),premium_paid_last_3m=75.00; face_amount=100000; address_change_12m=0
+P10122,2024-08-01,0.015695,40,high_income_urban_builder,0.75,age 35-55; face amount >= 500k; urbanicity = urban (3/4 signals matched),annualized_premium=3983.07; agent_touch_count_12m=1; autopay_flag=0
+P10064,2023-07-01,0.015669,41,post_retirement_high_coverage,1.0,age 65+; face >= 500k or cash value >= 50k; non-term product (3/3 signals matched),current_age=76.80; agent_touch_count_12m=0; tenure_months=45.96
+P10040,2024-12-01,0.229789,4,high_income_urban_builder,0.25,age 35-55 (1/4 signals matched),missed_payment_count_6m=5; premium_paid_last_3m=217.52; income_estimate=84603.93
+P10113,2023-09-01,0.012498,47,unsegmented,0.0,No segment gate matched,premium_paid_last_3m=143.89; income_estimate=79234.44; tenure_months=51.02
+P10079,2023-03-01,0.382646,2,early_tenure_payment_friction,1.0,tenure < 18 months; payment friction (monthly / no autopay / missed payments); direct channel or low agent touch (3/3 signals matched),tenure_months=4.96; agent_touch_count_12m=0; premium_paid_last_3m=273.59
+P10152,2023-03-01,0.015714,39,legacy_stable_value,0.75,tenure >= 84 months; no missed payments; agent touch in last 12m (3/4 signals matched),premium_paid_last_3m=160.67; face_amount=150000; autopay_flag=0
+P10178,2023-11-01,0.019198,33,post_retirement_high_coverage,0.667,age 65+; non-term product (2/3 signals matched),current_age=75.80; missed_payment_count_6m=2; cash_value=1334.47
+P10051,2024-07-01,0.016115,37,high_income_urban_builder,0.75,age 35-55; face amount >= 500k; urbanicity = urban (3/4 signals matched),agent_touch_count_12m=0; premium_paid_last_3m=285.44; cash_value=1368.52
+P10101,2024-11-01,0.0,90,legacy_stable_value,0.5,tenure >= 84 months; agent touch in last 12m (2/4 signals matched),Risk at or below base rate; no elevated factors
+P10061,2023-09-01,0.003131,75,legacy_stable_value,1.0,tenure >= 84 months; no missed payments; autopay enabled; agent touch in last 12m (4/4 signals matched),Risk at or below base rate; no elevated factors

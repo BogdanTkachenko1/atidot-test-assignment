@@ -1,0 +1,17 @@
+{
+  "income_estimate": 0.1271,
+  "annualized_premium": 0.1067,
+  "current_age": 0.099,
+  "tenure_months": 0.0959,
+  "premium_paid_last_3m": 0.0891,
+  "cash_value": 0.0873,
+  "agent_touch_count_12m": 0.0589,
+  "face_amount": 0.0355,
+  "missed_payment_count_6m": 0.0219,
+  "product_type_Whole Life": 0.0193,
+  "distribution_channel_Bank": 0.0178,
+  "state_FL": 0.0171,
+  "distribution_channel_Agent": 0.015,
+  "autopay_flag": 0.0147,
+  "state_OH": 0.0146
+}
